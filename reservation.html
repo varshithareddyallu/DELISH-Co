@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservation</title>
+    <link rel="stylesheet" href="delish.css">
+    <link rel="icon" type="image/jpg" href="logo.jpg">
+</head>
+<body>
+    <header>
+         <H1>~ DELISH & CO ~</H1>
+    </header>
+
+    <section class="reservation">
+        <h2>Please enter the following details</h2>
+        <form action="/action.php">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your Name" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email id" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" placeholder="Enter your phone number" id="phone" name="phone" required>
+            
+            <label for="guests">Number of People:</label>
+            <input type="number" placeholder="Enter the number of People for dining" id="guests" name="guests" min="1" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="requests">Custom Needs:</label>
+            <textarea id="requests" name="requests"></textarea>
+            
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
+                
